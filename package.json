@@ -1,0 +1,30 @@
+{
+  "name": "trump_follower_counter",
+  "version": "1.0.0",
+  "description": "A small application to track Trumps twitter followers over time. Inspired by Wes Bos small Node.js scraper series that hopefully can still be found here https://www.youtube.com/watch?v=rWc0xqroY4U.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r esm index.js --ignore db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinjohansson93/TrumpFollowerCounter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinjohansson93/TrumpFollowerCounter/issues"
+  },
+  "homepage": "https://github.com/martinjohansson93/TrumpFollowerCounter#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "esm": "^3.2.21",
+    "express": "^4.16.4",
+    "lowdb": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
